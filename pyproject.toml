@@ -1,11 +1,13 @@
 [project]
-name = "blank-app-template"
+name = "arabic-text-analyzer"
 version = "0.1.0"
-description = "A simple Streamlit app template."
-readme = "README.md"
-requires-python = ">=3.14"
+description = "Arabic Text Analyzer"
+requires-python = ">=3.10,<3.13"
 dependencies = [
-    "streamlit>=1.61.1",
+    "streamlit",
+    "transformers",
+    "sentencepiece",
+    "torch",
 ]
 
 [tool.uv]
