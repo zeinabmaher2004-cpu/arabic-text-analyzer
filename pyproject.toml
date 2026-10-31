@@ -1,5 +1,5 @@
 [project]
-name = "arabic-text-analyzer"
+name = "blank-app-template"
 version = "0.1.0"
 description = "Arabic Text Analyzer"
 requires-python = ">=3.10,<3.13"
